@@ -3,7 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/User/Documents/Data Kuliah (PENS-2110191020)/Semester 5/Pemrograman Perangkat Bergerak/Teori - Pak Fahrul/Minggu 7/todolist/app/src/main/res/layout/activity_main.xml" value="0.259375" />
+        <entry key="..\:/User/Documents/Data Kuliah (PENS-2110191020)/Semester 5/Pemrograman Perangkat Bergerak/Teori - Pak Fahrul/Minggu 7/todolist/app/src/main/res/drawable/bg_gray.xml" value="0.2755208333333333" />
+        <entry key="..\:/User/Documents/Data Kuliah (PENS-2110191020)/Semester 5/Pemrograman Perangkat Bergerak/Teori - Pak Fahrul/Minggu 7/todolist/app/src/main/res/drawable/bg_note.xml" value="0.24814814814814815" />
+        <entry key="..\:/User/Documents/Data Kuliah (PENS-2110191020)/Semester 5/Pemrograman Perangkat Bergerak/Teori - Pak Fahrul/Minggu 7/todolist/app/src/main/res/drawable/bg_primary.xml" value="0.24814814814814815" />
+        <entry key="..\:/User/Documents/Data Kuliah (PENS-2110191020)/Semester 5/Pemrograman Perangkat Bergerak/Teori - Pak Fahrul/Minggu 7/todolist/app/src/main/res/drawable/bg_red.xml" value="0.2755208333333333" />
+        <entry key="..\:/User/Documents/Data Kuliah (PENS-2110191020)/Semester 5/Pemrograman Perangkat Bergerak/Teori - Pak Fahrul/Minggu 7/todolist/app/src/main/res/drawable/bg_yellow.xml" value="0.2755208333333333" />
+        <entry key="..\:/User/Documents/Data Kuliah (PENS-2110191020)/Semester 5/Pemrograman Perangkat Bergerak/Teori - Pak Fahrul/Minggu 7/todolist/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/User/Documents/Data Kuliah (PENS-2110191020)/Semester 5/Pemrograman Perangkat Bergerak/Teori - Pak Fahrul/Minggu 7/todolist/app/src/main/res/layout/dialog_fragment_add.xml" value="0.4" />
+        <entry key="..\:/User/Documents/Data Kuliah (PENS-2110191020)/Semester 5/Pemrograman Perangkat Bergerak/Teori - Pak Fahrul/Minggu 7/todolist/app/src/main/res/layout/dialog_fragment_update.xml" value="0.4" />
+        <entry key="..\:/User/Documents/Data Kuliah (PENS-2110191020)/Semester 5/Pemrograman Perangkat Bergerak/Teori - Pak Fahrul/Minggu 7/todolist/app/src/main/res/layout/item_note.xml" value="0.4718498659517426" />
+        <entry key="..\:/User/Documents/Data Kuliah (PENS-2110191020)/Semester 5/Pemrograman Perangkat Bergerak/Teori - Pak Fahrul/Minggu 7/todolist/app/src/main/res/menu/main_menu.xml" value="0.264" />
       </map>
     </option>
   </component>
