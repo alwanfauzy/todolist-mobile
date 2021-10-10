@@ -6,6 +6,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.alwan.todolist.databinding.ItemNoteBinding
+import com.alwan.todolist.model.Note
 
 class NoteAdapter : RecyclerView.Adapter<NoteAdapter.ViewHolder>() {
     private val mData = ArrayList<Note>()

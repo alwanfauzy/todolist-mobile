@@ -1,11 +1,15 @@
-package com.alwan.todolist
+package com.alwan.todolist.model
 
 import android.os.Parcelable
+import androidx.room.Entity
+import androidx.room.PrimaryKey
 import kotlinx.parcelize.Parcelize
 
 @Parcelize
+@Entity(tableName = "note")
 data class Note(
-    val note_id: Int,
+    @PrimaryKey(autoGenerate = true)
+    val id: Int,
     val title: String? = null,
     val description: String? = null,
     val isChecked: Boolean = false,
