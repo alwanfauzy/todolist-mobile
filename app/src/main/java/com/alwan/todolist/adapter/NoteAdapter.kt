@@ -1,12 +1,13 @@
-package com.alwan.todolist
+package com.alwan.todolist.adapter
 
 import android.graphics.Rect
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.alwan.todolist.R
 import com.alwan.todolist.databinding.ItemNoteBinding
-import com.alwan.todolist.model.Note
+import com.alwan.todolist.data.model.Note
 
 class NoteAdapter : RecyclerView.Adapter<NoteAdapter.ViewHolder>() {
     private val mData = ArrayList<Note>()
@@ -18,7 +19,15 @@ class NoteAdapter : RecyclerView.Adapter<NoteAdapter.ViewHolder>() {
             binding.tvTitleNote.text = noteItem.title
             binding.tvDescriptionNote.text = noteItem.description
             binding.cbStatusNote.isChecked = noteItem.isChecked
+            if(noteItem.isChecked){
+                binding.itemNote.setBackgroundResource(R.drawable.bg_note_checked)
+            }else{
+                binding.itemNote.setBackgroundResource(R.drawable.bg_note)
+            }
 
+            binding.cbStatusNote.setOnClickListener{
+                onItemClickCallback?.onCheckboxClicked(noteItem)
+            }
             itemView.setOnClickListener {
                 onItemClickCallback?.onItemClicked(noteItem)
             }
@@ -33,6 +42,7 @@ class NoteAdapter : RecyclerView.Adapter<NoteAdapter.ViewHolder>() {
 
     interface OnItemClickCallback {
         fun onItemClicked(data: Note)
+        fun onCheckboxClicked(data: Note)
     }
 
     fun setOnItemClickCallback(onItemClickCallback: OnItemClickCallback) {

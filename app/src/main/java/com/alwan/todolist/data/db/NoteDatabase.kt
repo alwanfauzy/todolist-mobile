@@ -4,11 +4,13 @@ import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
-import com.alwan.todolist.model.Note
+import com.alwan.todolist.data.db.UserDao
+import com.alwan.todolist.data.model.Note
+import com.alwan.todolist.data.model.User
 
 @Database(
-    entities = [Note::class],
-    version = 1
+    entities = [Note::class, User::class],
+    version = 3
 )
 
 abstract class NoteDatabase : RoomDatabase() {
@@ -22,7 +24,7 @@ abstract class NoteDatabase : RoomDatabase() {
                         context.applicationContext,
                         NoteDatabase::class.java,
                         "note_database"
-                    ).build()
+                    ).fallbackToDestructiveMigration().allowMainThreadQueries().build()
                 }
             }
             return INSTANCE
@@ -30,4 +32,5 @@ abstract class NoteDatabase : RoomDatabase() {
     }
 
     abstract fun noteDao(): NoteDao
+    abstract fun userDao(): UserDao
 }
