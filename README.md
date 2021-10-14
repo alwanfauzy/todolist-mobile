@@ -6,3 +6,9 @@
 - Room database for note and user table
 - LiveData
 - Kotlin Coroutines for database operations
+
+---
+
+Screenshot Application
+
+![Screenshot todolist](https://i.ibb.co/pZRnzVf/SS-todolist.png)
