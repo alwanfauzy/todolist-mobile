@@ -1,2 +1,8 @@
-# todolist-mobile
-Tugas Pak Fahrul UTS Mata Kuliah Pemrograman Perangkat Bergerak
+# Todo List Android App
+- MVVM Architecture
+- DataStore for saving auth token (SharedPreferences alternative for saving key-value)
+- RecyclerView
+- Dialog Fragment
+- Room database for note and user table
+- LiveData
+- Kotlin Coroutines for database operations
